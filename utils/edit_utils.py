@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 import configs.paths_config
 from configs import paths_config
-from training.networks import SynthesisBlock
+from modules.networks import SynthesisBlock
 
 
 def add_texts_to_image_vertical(texts, pivot_images):

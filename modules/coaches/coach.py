@@ -12,7 +12,7 @@ from tqdm import tqdm, trange
 from configs import global_config, paths_config, hyperparameters
 from criteria import l2_loss
 from criteria.localitly_regularizer import SpaceRegularizer
-from training.projectors import w_projector
+from modules.projectors import w_projector
 from utils.log_utils import log_image_from_w, log_images_from_w
 from utils.models_utils import load_old_G, initialize_e4e_wplus, save_tuned_G
 

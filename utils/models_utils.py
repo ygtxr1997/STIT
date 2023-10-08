@@ -6,7 +6,7 @@ import torch
 
 from configs import paths_config, global_config
 from models.e4e.psp import pSp
-from training.networks import Generator
+from modules.networks import Generator
 
 
 def save_tuned_G(generator, pivots, quads, run_id):

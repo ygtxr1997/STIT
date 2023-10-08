@@ -5,7 +5,7 @@ from tqdm import tqdm
 from utils.models_utils import save_tuned_G
 
 from datasets.image_list_dataset import ImageListDataset
-from training.coaches.coach import Coach
+from modules.coaches.coach import Coach
 from utils.data_utils import make_dataset
 import os
 
